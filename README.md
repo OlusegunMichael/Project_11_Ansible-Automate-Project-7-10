@@ -1,2 +1,2 @@
 # Project_11_Ansible-Automate-Project-7-10
-Project_11_Ansible – Automate Project
+In this Project most routine tasks will be automated with Ansible Configuration Management, by writing code using declarative language such as YAML.
