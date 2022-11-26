@@ -64,18 +64,6 @@ By default, the artifacts are stored on Jenkins server locally *`ls /var/lib/jen
 ___
 ### **Step 2 - Prepare your development environment using Visual Studio Code**
 ___
-* Clone down your ansible-config-mgt repo to your Jenkins-Ansible instance using *`git clone git@github.com:OlusegunMichael/ansible-config-mgt.git`*
-
-![clone](./Project_11_Images/clone%20repo%20to%20jenkinsansible%20ec2.PNG)
-* In your ansible-config-mgt GitHub repository, I created a new branch that will be used for development of a new feature.
-
-![branch](./Project_11_Images/Branch%20Created.PNG)
-![branch](./Project_11_Images/Branch%20Created1.PNG)
-
-* 2 Directories named *"playbooks" and "inventory"* were created using *`mkdir playbooks && mkdir inventory`*
-* In Directory playbooks, "*common.yml*" file was created using *`touch common.yml`* and in the inventory directory "*dev.yml, staging.yml, uat.yml, and prod.yml*" was created with *` touch dev.yml, staging.yml, uat.yml, and prod.yml`* was created.
-
-![mkdir](./Project_11_Images/mkdir.PNG)
 
 ### Ansible Developments
 ___
@@ -90,6 +78,24 @@ Adding my key.pem file to ssh agent from downloads directory the following comma
 ![ssh](./Project_11_Images/ssh%20add.PNG)
 ![ssh](./Project_11_Images/ssh%20agent.PNG)
 ![ssh](./Project_11_Images/ssh%20agent1.PNG)
+
+* Accessing the Jenkins Ansible Server by via VS code by modifing the Open SSH Config File to the server details and then connecting to the Host.
+
+![vcode](./Project_11_Images/vscode.PNG)
+![vcode](./Project_11_Images/vscode1.PNG)
+
+* Clone down your ansible-config-mgt repo to your Jenkins-Ansible instance using *`git clone git@github.com:OlusegunMichael/ansible-config-mgt.git`*
+
+![clone](./Project_11_Images/clone%20repo%20to%20jenkinsansible%20ec2.PNG)
+* In your ansible-config-mgt GitHub repository, I created a new branch that will be used for development of a new feature.
+
+![branch](./Project_11_Images/Branch%20Created.PNG)
+![branch](./Project_11_Images/Branch%20Created1.PNG)
+
+* 2 Directories named *"playbooks" and "inventory"* were created using *`mkdir playbooks && mkdir inventory`*
+* In Directory playbooks, "*common.yml*" file was created using *`touch common.yml`* and in the inventory directory "*dev.yml, staging.yml, uat.yml, and prod.yml*" was created with *` touch dev.yml, staging.yml, uat.yml, and prod.yml`* was created.
+
+![mkdir](./Project_11_Images/mkdir.PNG)
 
 * Updated the inventory/dev.yml to start configuring.
 
