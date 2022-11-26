@@ -118,14 +118,17 @@ In common.yml playbook I will write configuration for repeatable, re-usable, and
 * *`git add .`* 
 * *`git commit -m "first commit"`*
 
-*A Pull request is created (PR)*
+#### *A Pull request is created (PR)*
 ![commoit](./Project_11_Images/firstcommit.PNG)
-*The code is merged to the master branch*
+
+#### *The code is merged to the master branch*
 ![commoit](./Project_11_Images/firstcommit1.PNG)
-*Jenkins Automatically Updates with another Job Build*
+
+#### *Jenkins Automatically Updates with another Job Build*
 ![commoit](./Project_11_Images/firstcommit%20jenkins.PNG)
 ![commoit](./Project_11_Images/firstcommit%20jenkins1.PNG)
-*All the files (build artifacts) to /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/ directory on Jenkins-Ansible server.*
+
+#### *All the files (build artifacts) to /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/ directory on Jenkins-Ansible server.*
 ![commoit](./Project_11_Images/archive%20sfter%20firstcommit.PNG)
 ### Run First Ansible Test
 ---
